@@ -1,0 +1,56 @@
+<!doctype html>
+<html ng-app="myApp">  
+<head>    
+	<title>[tell us] home</title>    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+	<link href="style-home.css" rel="stylesheet"/>
+</head>  
+
+<body>    
+	<div id="tab-bar"></div>
+	<div class="logo">
+		<div><img id="elipse" src="imgs/logo.png" alt="Logo"></div>
+		<div id="tellus">Tell<div id="us">Us</div></div>
+	</div>
+	
+	<div id="avatar"><img src="imgs/user.png" alt="Avatar" ></div>
+	<div id="menu-bar"><img src="imgs/menu.png" alt="Menu"></div>
+	<div class="bg"></div>
+	<div id="feelings">
+			<p id="feel-title">How are you today?</p>
+			<div class="emoji">
+				<img src="imgs/cry.png" alt="Menu">
+				<img src="imgs/sad.png" alt="Menu">
+				<img src="imgs/straight.png" alt="Menu">
+				<img src="imgs/smile.png" alt="Menu">
+				<img src="imgs/happy.png" alt="Menu">
+			</div>
+			<div id="let-out-thoughts" style="cursor: pointer;" onclick="window.location.href = 'index.html'">Let out your thoughts and feelings...</div>
+			<div id="next-time" style="cursor: pointer;" onclick="window.location.href = 'home.html'"><p>Maybe next time</p></div>
+	</div>
+	
+	<div id="message">
+			<p id="msg-title">A Message For You...</p>
+			<p id="msg">"Soon, when all is well, you’re going to look back on this period of your life and be so glad that you never gave up."</p>
+	</div>
+	
+	<div id="help">
+			<div id="chat" style="cursor: pointer;" onclick="window.location.href = 'index.html'"><p>Chat With Your Counselor</p></div>
+			<div id="share" style="cursor: pointer;" onclick="window.location.href = 'share-msg.html'"><p>Share a Positive Message or Quote Anonymuously!</p></div>
+			<div id="resources" style="cursor: pointer;" onclick="window.location.href = 'resources.html'"><p>Available Resources</p></div>
+	</div>
+	
+	<div id="explore">
+		<p>Explore</p>
+		<img id="house" src="imgs/house.jpg" alt="Menu">
+		<div id="house-txt">Family and Household</div>
+		<img id="race" src="imgs/race.jpg" alt="Menu">
+		<div id="race-txt">Race, Gender, Sexuality</div>
+		<img id="anxiety" src="imgs/anxiety.jpg" alt="Menu">
+		<div id="anxiety-txt">Anxiety</div>
+		
+	</div>
+		
+</body>
+
+</html>

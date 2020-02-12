@@ -1,0 +1,34 @@
+<!doctype html>
+<html ng-app="myApp">  
+<head>    
+	<title>[tell us] chat</title>    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+	<link href="style-index.css" rel="stylesheet"/>
+</head>  
+
+<body>
+	<div id="tab-bar"></div>
+	<div class="logo">
+		<div><img id="elipse" src="imgs/logo.png" alt="Logo"></div>
+		<div id="tellus">Tell<div id="us">Us</div></div>
+	</div>
+	<div id="avatar"><img src="imgs/user.png" alt="Avatar"></div>
+	<div id="menu-bar"><img src="imgs/menu.png" alt="Menu"></div>    
+	<div id="mario-chat">
+		<h2>Tell<div id="us1">Us</div></h2>
+		<div id="chat-window">
+			<div id="output"></div>
+			<div id="feedback"></div>
+		</div>
+		<input id="handle" type="text" placeholder="What would you like to be called?"/>
+		<input id="message" type="text" placeholder="How are you feeling today?"/>
+		<button id="send">Send</button>
+
+	</div>
+			<button class="back-btn" onclick="window.location.href = 'home.html'" style="vertical-align:middle">
+				<span>Back</span>
+			</button>
+</body>
+<script src="/chat.js"></script>
+
+</html>

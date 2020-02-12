@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app="myApp">  
+<head>    
+	<title>[tell us] available resources</title>    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+	<link href="style-res.css" rel="stylesheet"/>
+</head>  
+
+<body>
+	<div id="tab-bar"></div>
+	<div class="logo">
+		<div><img id="elipse" src="imgs/logo.png" alt="Logo"></div>
+		<div id="tellus">Tell<div id="us">Us</div></div>
+	</div>
+	<div id="avatar"><img src="imgs/user.png" alt="Avatar"></div>
+	<div id="menu-bar"><img src="imgs/menu.png" alt="Menu"></div>    
+	
+	<div id="title">
+		<p>Available Resources</p>
+		<div>
+		<ul class="list">
+		  <li style="cursor: pointer;" onclick="window.location.href = 'https://www.mentalhealthcommission.ca/English'">Mental Health Commission of Canada</li>
+		  <li style="cursor: pointer;" onclick="window.location.href = 'http://www.teenmentalhealth.org/'">Teen Mental Health</li>
+		  <li style="cursor: pointer;" onclick="window.location.href = 'http://www.excellenceforchildandyouth.ca/'">Ontario Centre of Excellence for Child and Youth Mental Health</li>
+		  <li style="cursor: pointer;" onclick="window.location.href = 'http://www.nimh.nih.gov/'">National Institute of Mental Health</li>
+		  <li style="cursor: pointer;" onclick="window.location.href = 'http://www.nnmh.ca/'">National Network for Mental Health</li>
+		  <li style="cursor: pointer;" onclick="window.location.href = 'http://healthymindscanada.ca/'">Healthy Minds Canada</li>
+		  <li style="cursor: pointer;" onclick="window.location.href = 'http://www.aacap.org/'">American Academy of Child and Adolescent Psychiatry</li>
+		  <li style="cursor: pointer;" onclick="window.location.href = 'http://www.apa.org/'">American Psychological Association</li>
+		  <li style="cursor: pointer;" onclick="window.location.href = 'http://www.cpa-apc.org/'">Canadian Psychiatric Association</li>
+		  <li style="cursor: pointer;" onclick="window.location.href = 'http://www.cpa.ca/'">Canadian Psychological Association</li>
+		</ul>
+	</div>
+	</div>
+	
+	<button class="back-btn" onclick="window.location.href = 'home.html'" style="vertical-align:middle">
+				<span>Back</span>
+	</button>
+</body>
+
+</html>
